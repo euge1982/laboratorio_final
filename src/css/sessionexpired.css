@@ -1,0 +1,41 @@
+/* sessionexpired.css */
+
+.session-expired-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5; /* Fondo claro */
+  color: #333; /* Texto oscuro */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.session-expired-message {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.session-expired-container p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.session-expired-link {
+  display: inline-block;
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  border: 2px solid #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.session-expired-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
